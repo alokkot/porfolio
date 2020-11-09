@@ -103,7 +103,7 @@ footer{
 header{
   font-family: Georgia, 'Times New Roman', Times, serif;
   
-  border-bottom: 3px solid #50C7C7;
+  border-bottom: 3px solid  red;
   display: flex;
   flex-direction: column;
   justify-content: center;
