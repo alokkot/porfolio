@@ -3,40 +3,34 @@ body{
     margin: 0;
     padding: 0;
     font-size: 16pt; /* test for this! Make all sizes em or rem */
-    background-image: url('../images/blackb.jpg');
+    background-color: #192240;
   }
   
   h1{
     font-size: 2em;
-    color: red;
+    color: #BE212F;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     line-height: 2;
     padding-top: 50px;
     
   }
-  .container, .container1{
-    display: flex;
-	flex-wrap: wrap;
-    
-  }
-#pic1, #pic2{
-	display: flex;
-	align-content: flex-start;
-	max-height: 300px;
+img{
+	max-height: 250px;
+	max-width: 250px;
 }
-    
 
   h2{
     font-size: 2em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: blue;
     text-align: center;
+  }
+
 }
   
-  p {
-	display: flex;
-	font-size: 24px;
+  p{
+    padding: 0 30px;
     color: #ffffff;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -55,20 +49,13 @@ body{
   
   a.skip:focus{
     top:20px;
-    color: black;
+    color: white;
     text-decoration-style: solid;
   }
   
   *:focus{
 	border: 2px solid #FFFFFF;
   }
-  footer{
-    background-color: black;
-    color: white;
-    padding: 30px;
-	text-align: center;
-	padding-left: 50%;
-}
 
   
   /* ----------------------------------------------
@@ -101,12 +88,12 @@ body{
   header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #BE212F;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/blackb.jpg')
+    background-color: #192240
   }
   
   .nav_links{
@@ -123,17 +110,24 @@ body{
     text-decoration: none;
   }
   li.active{
-    background-color: blue;
+    background-color: #BE212F;
     font-style: italic;
   }
   
   a:hover, a:focus{
-    color: red;
+    color: #BE212F;
     text-decoration: underline;
     -webkit-text-decoration-style: dotted;
             text-decoration-style: dotted;
   }
   
+footer{
+    background-color: #192240;
+    color: white;
+    padding: 30px;
+    text-align: center;
+	border-top: 3px solid #BE212F;
+  }
   @media screen and (min-width: 850px){
   
     /* Cards! */

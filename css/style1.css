@@ -3,12 +3,12 @@ body{
     margin: 0;
     padding: 0;
     font-size: 16pt; /* test for this! Make all sizes em or rem */
-    background-image: url('../images/blackb.jpg');
+    background-color: #192240;
   }
   
   h1{
     font-size: 2em;
-    color: red;
+    color: #BE212F;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     line-height: 2;
@@ -19,14 +19,14 @@ body{
   h2{
     font-size: 1.5em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: blue;
+    color: #BE212F;
     text-align: center;
     padding: 5px;
   }
   
   p {
     padding: 0 30px;
-    color: #ffffff;
+    color: #ffffffff;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
@@ -85,11 +85,12 @@ padding-bottom: 50px;
 flex-wrap: wrap;
 }
   
-  footer{
-    background-color: black;
+footer{
+    background-color: #192240;
     color: white;
     padding: 30px;
     text-align: center;
+	border-top: 3px solid #BE212F;
   }
   
   /*Begin your code here*/
@@ -133,12 +134,12 @@ flex-wrap: wrap;
   header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #BC202E;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/blackb.jpg')
+    background-color: #192240
   }
   
   .nav_links{
@@ -155,7 +156,7 @@ flex-wrap: wrap;
     text-decoration: none;
   }
   li.active{
-    background-color: blue;
+    background-color: #BF2130;
     font-style: italic;
   }
   
