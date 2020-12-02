@@ -7,12 +7,12 @@ body{
 }
 
 h1{
-  font-size: 2em;
-  color: red;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-align: center;
-  line-height: 2;
-  
+    font-size: 2em;
+  	color: #BE212F  ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    line-height: 2;
+    border-color: #BE212F;  
 }
 
 p {
@@ -103,7 +103,7 @@ footer{
 header{
   font-family: Georgia, 'Times New Roman', Times, serif;
   
-  border-bottom: 3px solid  red;
+  border-bottom: 3px solid  #192240;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -125,8 +125,9 @@ a:not(.active){
   text-decoration: none;
 }
 li.active{
-  background-color: blue;
-  font-style: italic;
+    background-color: #BE212F;
+    font-style: italic;
+    color: #192240;
 }
 
 a:hover, a:focus{
