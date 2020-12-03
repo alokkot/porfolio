@@ -23,7 +23,7 @@ body{
 	  grid-template-rows: 8;
  
   }
-    #ppl1{
+    .ppl1{
         grid-column: 1/2;
 		max-height: 100px;	
     }
@@ -33,7 +33,7 @@ body{
 	max-width: 80px;
 	font-size:11px}
     
-	#ppl2{
+	.ppl2{
         grid-column: 2/3;
 		max-height: 100px;
 		min-width: 90px;
@@ -45,7 +45,7 @@ body{
 	max-width: 110px;
 	
 }
-    #ppl3{
+    .ppl3{
         grid-column: 3/4;
 		max-height: 100px;
 		min-height: 100px;
@@ -67,7 +67,7 @@ body{
 	grid-column: 4 /5;
 	grid-row: 2;
 }
-#coach{
+.coach{
         grid-column-start: 4;
 		max-height: 100px;
     }
@@ -174,8 +174,9 @@ footer{
     text-decoration: none;
   }
   li.active{
-    background-color: #BE212F;
+    background-color: #00fd00;
     font-style: italic;
+	  font-weight: bold;
   }
   
   a:hover, a:focus{
@@ -204,7 +205,7 @@ footer{
     }
   }
 .grid-container, .grid-container1{
-	  padding: 20px 0px;
+	  padding: 20px 70px;
 	  display: grid;
 	  grid-template-columns: 4;
 	  grid-template-rows: 2;

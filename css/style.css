@@ -127,10 +127,10 @@ a:not(.active){
   text-decoration: none;
 }
 li.active{
-    background-color: #D42534;
+    background-color:#00fd00;
     font-style: italic;
-    color: #192240;
 	font-weight: bold;
+	color: #D42534;
 	
 }
 
@@ -177,12 +177,7 @@ a:hover, a:focus{
   body{
     background-image: none;
   }
-  .gallery{
-    display:none;
-  }
-  #galley{
-    display: none;
-  }
+
   footer{
     display: block;
   }

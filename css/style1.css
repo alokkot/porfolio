@@ -157,8 +157,9 @@ footer{
     text-decoration: none;
   }
   li.active{
-    background-color: #BF2130;
+    background-color: #00fd00;
     font-style: italic;
+	  font-weight: bold;
   }
   
   a:hover, a:focus{
