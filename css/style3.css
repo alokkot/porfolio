@@ -1,14 +1,14 @@
 body{
     font-family: 'Raleway', sans-serif; /* Test for this*/
     margin: 0;
-    padding: 0;
+    
     font-size: 16pt; /* test for this! Make all sizes em or rem */
     background-color: #192240;
   }
   
   h1{
     font-size: 2em;
-    color: #BE212F;
+    color: #D42534;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     line-height: 2;
@@ -30,7 +30,7 @@ img{
 }
   
   p{
-    padding: 0 30px;
+    padding: 20px 30px;
     color: #ffffff;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -87,8 +87,8 @@ img{
   /* Navbar */
   header{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    border-bottom: 3px solid #BE212F;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #D42534;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,8 +110,9 @@ img{
     text-decoration: none;
   }
   li.active{
-    background-color: #BE212F;
+    background-color: #D42534;
     font-style: italic;
+	  font-weight: bold;
   }
   
   a:hover, a:focus{
@@ -126,21 +127,11 @@ footer{
     color: white;
     padding: 30px;
     text-align: center;
-	border-top: 3px solid #BE212F;
+	border-top: 3px solid #D42534;
   }
   @media screen and (min-width: 850px){
   
-    /* Cards! */
-    .card {
-      flex-basis: 225px;
-      
-      }
-  
-    .card_big{
-      -webkit-transform: scaleX(1.12);
-              transform: scaleX(1.12);
-    }
-  
+
     /* Navbar */
     header{
       justify-content: space-between;
@@ -163,12 +154,6 @@ footer{
     }
     body{
       background-image: none;
-    }
-    .gallery{
-      display:none;
-    }
-    #galley{
-      display: none;
     }
     footer{
       display: block;

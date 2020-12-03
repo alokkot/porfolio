@@ -130,6 +130,8 @@ li.active{
     background-color: #D42534;
     font-style: italic;
     color: #192240;
+	font-weight: bold;
+	
 }
 
 a:hover, a:focus{

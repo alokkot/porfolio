@@ -8,24 +8,25 @@ body{
   
   h1{
     font-size: 2em;
-    color: #BE212F;
+    color: #D42534;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     line-height: 2;
-    padding-top: 50px;
+    padding-top: 30px;
     
   }
   
   h2{
     font-size: 1.5em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #BE212F;
+    color: #D42534;
     text-align: center;
-    padding: 5px;
+    padding: 20px;
   }
   
   p {
-    padding: 0 30px;
+    padding: 0px 30px;
+	padding-bottom: 20px;
     color: #ffffffff;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -71,7 +72,7 @@ body{
       display: flex;
       flex-wrap: wrap;
 }
-  #wc, #gm, #con{
+  .wc, .gm, .con{
     max-width: 75px;
     max-height: 75px;
     display: flex;
@@ -88,9 +89,9 @@ flex-wrap: wrap;
 footer{
     background-color: #192240;
     color: white;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
-	border-top: 3px solid #BE212F;
+	border-top: 3px solid #D42534;
   }
   
   /*Begin your code here*/
@@ -133,8 +134,8 @@ footer{
   /* Navbar */
   header{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    border-bottom: 3px solid #BC202E;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #D42534;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,17 +170,7 @@ footer{
   
   @media screen and (min-width: 850px){
   
-    /* Cards! */
-    .card {
-      flex-basis: 225px;
-      
-      }
-  
-    .card_big{
-      -webkit-transform: scaleX(1.12);
-              transform: scaleX(1.12);
-    }
-  
+
     /* Navbar */
     header{
       justify-content: space-between;
@@ -203,11 +194,7 @@ footer{
     body{
       background-image: none;
     }
-    .gallery{
-      display:none;
-    }
-    #galley{
-      display: none;
+  
     }
     footer{
       display: block;
