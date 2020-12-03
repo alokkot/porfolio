@@ -1,22 +1,23 @@
 body{
   font-family: 'Raleway', sans-serif; /* Test for this*/
   margin: 0;
-  padding: 0;
   font-size: 16pt; /* test for this! Make all sizes em or rem */
   background-color: #192240;
+margin-bottom: 10px;
 }
 
 h1{
     font-size: 2em;
-  	color: #BE212F  ;
+  	color: #D42534  ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     line-height: 2;
-    border-color: #BE212F;  
+    border-color: #D42534;  
 }
 
 p {
   padding: 0 30px;
+	padding-bottom: 10px;
   color: #ffffff;
   text-align: center;
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -44,7 +45,7 @@ a.skip:focus{
 }
 
 
-#mens{
+#mens, #womens{
   max-width: 50%;
   max-height: 50%;
   margin-left: auto;
@@ -57,7 +58,7 @@ a.skip:focus{
 
 footer{
   background-color: #192240;
-  border-top:3px solid#BE212F;
+  border-top:3px solid #D42534;
   color: white;
   padding: 30px;
   text-align: center;
@@ -103,8 +104,8 @@ footer{
 /* Navbar */
 header{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  
-  border-bottom: 3px solid  #BE212F;
+  padding-bottom: 15px;
+  border-bottom: 3px solid  #D42534;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,7 +127,7 @@ a:not(.active){
   text-decoration: none;
 }
 li.active{
-    background-color: #BE212F;
+    background-color: #D42534;
     font-style: italic;
     color: #192240;
 }
