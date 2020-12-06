@@ -56,6 +56,40 @@ a.skip:focus{
 
 }
 
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #D42534; 
+  border-radius: 4px; 
+  box-sizing:border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #D42534;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #00ff00;
+}
+label{
+	color: white;
+	font-weight: bold;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #192240;
+	padding: 20px;}
+
 footer{
   background-color: #192240;
   border-top:3px solid #D42534;

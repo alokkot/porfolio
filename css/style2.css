@@ -1,13 +1,11 @@
 body{
-    font-family: 'Raleway', sans-serif; /* Test for this*/
-    margin: 0;
-    padding: 0;
-    font-size: 16pt; /* test for this! Make all sizes em or rem */
+    font-family: 'Raleway', sans-serif; 
+    font-size: 16pt; 
     background-color: #192240;
   }
   
 #usa{
-	padding-left: 70px;
+	padding-left: 125px;
 	padding-top: 30px;
 	max-width: 800px;
 	max-height: 300px;
@@ -24,21 +22,27 @@ body{
   .grid-container, .grid-container1{
 	  padding-top: 20px;
 	  padding-left: 70px;
+	  font-family:Georgia, 'Times New Roman', Times, serif;
 	  display: grid;
 	  text-align: center;
+	  align-items: center;
 	  grid-template-columns: 1;
 	  grid-template-rows: 8;
  
   }
     .ppl1{
         grid-column: 1/2;
-		max-height: 100px;	
+		max-height: 100px;
+		
     }
+
+}
 	.acap{
 	color:#ffffff;
 	text-align: left;
 	max-width: 80px;
-	font-size:11px}
+	font-size:11px;
+}
     
 	.ppl2{
         grid-column: 2/3;
@@ -75,8 +79,8 @@ body{
 	grid-row: 2;
 }
 .acap, .ccap, .cocap, .mcap{
-	padding-left: 50px;
-	text-align: center
+padding-left: 70px;
+	text-align: center;
 }
 .coach{
         grid-column-start: 4;
@@ -229,21 +233,10 @@ footer{
     body{
       background-image: none;
     }
-    .gallery{
-      display:none;
-    }
-    #galley{
-      display: none;
-    }
+
     footer{
       display: block;
-    }
-    }
-    /*Your code here again.*/
-    /*You will want four selectors*/  
   
-  /*Your code here again.*/ 
-  /*Add media query to handle reduced-motion*/
   @media screen and (prefers-reduced-motion: reduce){
     #logo {
       animation: none;

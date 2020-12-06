@@ -32,7 +32,31 @@
       <div><img src="images/womans.jpg" alt= 'Womens team' id= "womens">
         <p> Womens U.S National team, celebrating their World Cup win in 2019. This marked their 4th win out of 8 total tournaments. National Hero Megan Rapino is holding up the cup. </p></div>
     </div>
+	  <h1> Questions, Comments, Feedback</h1>
       </main>
+	  <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="role">Role</label>
+    <select id="role" name="role">
+      <option value="Student">Student</option>
+      <option value="Instructor">Instructor</option>
+     
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+	  </div>
     <footer>
       <p>University of Michigan School of Information <br/>
         &copy; Alok Kothari - Web Design 2020-2021</p>
