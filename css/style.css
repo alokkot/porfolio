@@ -127,7 +127,7 @@ a:not(.active){
   text-decoration: none;
 }
 li.active{
-    background-color:#00fd00;
+    background-color:#E4626B;
     font-style: italic;
 	font-weight: bold;
 	color: #D42534;
