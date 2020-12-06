@@ -111,7 +111,7 @@ img{
     text-decoration: none;
   }
   li.active{
-    background-color: #00fd00;
+    text-decoration: underline overline;
     font-style: italic;
 	  font-weight: bold;
   }
