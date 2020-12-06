@@ -127,10 +127,10 @@ a:not(.active){
   text-decoration: none;
 }
 li.active{
-    background-color:#E4626B;
+	text-decoration: underline overline;
     font-style: italic;
 	font-weight: bold;
-	color: #D42534;
+	
 	
 }
 

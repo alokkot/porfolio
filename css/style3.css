@@ -31,9 +31,9 @@ img{
   
   p{
     padding: 20px 30px;
-    color: #ffffff;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
+	color: #ffffff;
   }
   
   a.skip{

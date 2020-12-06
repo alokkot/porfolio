@@ -6,6 +6,12 @@ body{
     background-color: #192240;
   }
   
+#usa{
+	padding-left: 70px;
+	padding-top: 30px;
+	max-width: 800px;
+	max-height: 300px;
+}
   h1{
     font-size: 2em;
     color: #D42534;
@@ -19,6 +25,7 @@ body{
 	  padding-top: 20px;
 	  padding-left: 70px;
 	  display: grid;
+	  text-align: center;
 	  grid-template-columns: 1;
 	  grid-template-rows: 8;
  
@@ -67,6 +74,10 @@ body{
 	grid-column: 4 /5;
 	grid-row: 2;
 }
+.acap, .ccap, .cocap, .mcap{
+	padding-left: 50px;
+	text-align: center
+}
 .coach{
         grid-column-start: 4;
 		max-height: 100px;
@@ -82,7 +93,8 @@ body{
 	color:#ffffff;
 	text-align: left;
 	max-width: 105px;
-	font-size:11px}
+	font-size:11px;
+	padding-left: 56px;
 }
   
   p {
@@ -174,7 +186,7 @@ footer{
     text-decoration: none;
   }
   li.active{
-    background-color: #00fd00;
+    text-decoration: underline overline;
     font-style: italic;
 	  font-weight: bold;
   }
