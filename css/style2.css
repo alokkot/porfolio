@@ -21,7 +21,7 @@ body{
   }
   .grid-container, .grid-container1{
 	  padding-top: 20px;
-	  padding-left: 70px;
+	  padding-left: 10px;
 	  font-family:Georgia, 'Times New Roman', Times, serif;
 	  display: grid;
 	  text-align: center;
@@ -149,6 +149,7 @@ padding-left: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #D42534;
     text-align: center;
+	  padding-top: 30px;
   }
 .cp{
 	color:#ffffff;
@@ -183,8 +184,9 @@ padding-left: 56px;}
   *:focus{
 	border: 2px solid #FFFFFF;
   }
+
 footer{
-	 background-color: #192240;
+	background-color: #192240;
     color: white;
     padding: 30px;
     text-align: center;
