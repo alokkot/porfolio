@@ -175,32 +175,6 @@ a:hover, a:focus{
           text-decoration-style: dotted;
 }
 
-@media screen and (min-width: 768px){
-
-
-  header{
-    justify-content: space-between;
-    flex-direction: column;
-	  font-size: 2em;
-
-  }
-	h1{
-		font-size:44px;
-	}
-	p{
-		font-size: 32px;
-	}
-
-  .nav_links{
-    flex-direction: row;
-  }
-
-  .nav_item a{
-    padding: 10px;
-  }
-	
-}
-
 @media only screen and (min-width: 600px) {
 	
 
@@ -225,6 +199,31 @@ a:hover, a:focus{
   .nav_item a{
     padding: 10px;
   }
+}
+@media screen and (min-width: 768px){
+
+
+  header{
+    justify-content: space-between;
+    flex-direction: column;
+	  font-size: 2em;
+
+  }
+	h1{
+		font-size:44px;
+	}
+	p{
+		font-size: 32px;
+	}
+
+  .nav_links{
+    flex-direction: row;
+  }
+
+  .nav_item a{
+    padding: 10px;
+  }
+	
 }
 
 @media screen and (prefers-reduced-motion: reduce){

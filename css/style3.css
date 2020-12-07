@@ -18,6 +18,9 @@ body{
 img{
 	max-height: 250px;
 	max-width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
   h2{
@@ -145,6 +148,9 @@ footer{
 	p{
 		font-size: 28px;
 	}
+	img{
+		margin-left: 0%;
+	}
 
   .nav_links{
     flex-direction: row;
@@ -170,6 +176,9 @@ footer{
 	p{
 		font-size: 32px;
 	}
+	 img{
+		 margin-left: 0%;
+	 }
 
   .nav_links{
     flex-direction: row;
