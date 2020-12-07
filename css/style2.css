@@ -30,6 +30,10 @@ body{
 	  grid-template-rows: 8;
  
   }
+.contain{
+	display: flex;
+	flex-wrap: wrap;
+}
     .ppl1{
         grid-column: 1/2;
 		width: 100%;
@@ -180,13 +184,15 @@ padding-left: 56px;}
 	border: 2px solid #FFFFFF;
   }
 footer{
-    background-color: #192240;
+	 background-color: #192240;
     color: white;
     padding: 30px;
     text-align: center;
 	border-top: 3px solid #D42534;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
-  }
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	padding-top: 20px;
+}
+   
 
   
   /* ----------------------------------------------
@@ -285,8 +291,7 @@ footer{
       background-image: none;
     }
 
-    footer{
-      display: block;
+   
   
   @media screen and (prefers-reduced-motion: reduce){
     #logo {
