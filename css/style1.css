@@ -32,22 +32,25 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
   
-  a.skip{
-    background: white;
-    left: 0;
-    padding: 6px;
-    position: absolute;
-    top: -40px;
-    -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
-    z-index: 1;
-  }
-  
-  a.skip:focus{
-    top:20px;
-    color: black;
-    text-decoration-style: solid;
-  }
+a.skip{
+  background: #192240;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+a.skip:focus{
+  top:20px;
+	background-color: #192240;
+  color: #ffffff;
+font-weight: bolder;
+  text-decoration-style: solid;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
   
   *:focus{
     border: 2px solid black;
