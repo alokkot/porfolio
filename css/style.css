@@ -39,6 +39,7 @@ a.skip:focus{
   color: black;
 font-weight: bolder;
   text-decoration-style: solid;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 *:focus{
