@@ -37,6 +37,7 @@ a.skip{
 a.skip:focus{
   top:20px;
   color: black;
+font-weight: bolder;
   text-decoration-style: solid;
 }
 
