@@ -24,7 +24,7 @@ p {
 }
 
 a.skip{
-  background: white;
+  background: #192240;
   left: 0;
   padding: 6px;
   position: absolute;
@@ -36,7 +36,8 @@ a.skip{
 
 a.skip:focus{
   top:20px;
-  color: black;
+	background-color: #192240
+  color: white;
 font-weight: bolder;
   text-decoration-style: solid;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
